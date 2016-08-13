@@ -6,3 +6,48 @@
         color: blue;
     }
 }
+
+#nav {
+    background-color: green;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        
+        li{
+            float: left;
+            a{
+                text-decoration: none;
+                background-color: red;
+                padding: 8px;
+                color:black;
+            }
+            a:hover{
+                background-color: blue;
+            }
+        }
+    }
+}
+
+.nav-element {
+    color: black;
+    background-color: red;
+    min-width: 5em;
+    max-width: 5em;
+    min-height: 1.5em;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.5em;
+    border-color: aqua;
+    border-width: medium;
+    border-style: solid;
+    margin-left: 0.2em;
+    
+    
+    a {
+        
+    }
+}

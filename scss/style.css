@@ -1,9 +1,47 @@
-/* line 2, C:/Users/Ruffy/Desktop/sass/style.scss */
+/* line 2, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
 .chapter h1 {
   color: red; }
 
-/* line 5, C:/Users/Ruffy/Desktop/sass/style.scss */
+/* line 5, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
 .chapter p {
   color: blue; }
+
+/* line 10, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
+#nav {
+  background-color: green;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em; }
+  /* line 14, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
+  #nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    /* line 20, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
+    #nav ul li {
+      float: left; }
+      /* line 22, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
+      #nav ul li a {
+        text-decoration: none;
+        background-color: red;
+        padding: 8px;
+        color: black; }
+      /* line 28, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
+      #nav ul li a:hover {
+        background-color: blue; }
+
+/* line 35, C:/Users/Ruffy/Desktop/learning_dev/scss/style.scss */
+.nav-element {
+  color: black;
+  background-color: red;
+  min-width: 5em;
+  max-width: 5em;
+  min-height: 1.5em;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.5em;
+  border-color: aqua;
+  border-width: medium;
+  border-style: solid;
+  margin-left: 0.2em; }
 
 /*# sourceMappingURL=style.css.map */
